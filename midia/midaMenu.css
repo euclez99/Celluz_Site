@@ -1,0 +1,80 @@
+
+
+
+@media only screen and (max-width: 600px){
+
+    header{
+
+        h1{
+            font-size: 30px;
+            letter-spacing: 1px;
+        }
+        
+    }
+
+    .princi{
+        margin-left: 0px;
+        margin-bottom: 100px;
+    }
+
+    .agenda{
+        top: 542px;
+    }
+}
+
+
+@media only screen and (min-width: 600px){
+
+        header{
+
+        h1{
+            font-size: 60px;
+            letter-spacing: 3px;
+        }
+        
+    }
+
+    .princi{
+        margin-left: 0px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 780px){
+
+        .princi{
+            margin-left: 100px;
+            margin-bottom: 90px;
+        }
+
+
+}
+
+
+@media (min-width: 982px) and (min-width: 1080px ){
+
+    .princi{
+        margin-left: 100px;
+        margin-bottom: 90px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px){
+    
+
+}
+
+
+@media only screen and (min-width: 1400px){
+
+
+}
+
+
+@media only screen and (min-width: 1456px){
+
+}
