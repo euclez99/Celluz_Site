@@ -12,6 +12,8 @@ header{
     align-items: center;
     display: flex;
     background-color: #ffd1d7;
+    border-bottom: 4px solid #810380;
+    box-shadow: 1px 4px 5px #795e62;
 
     .logo{
         align-items: center;
@@ -103,10 +105,9 @@ main{
     }
 }
 .conteud{
-    background-color: #ffdadf;
-    margin: 60px;
-    padding: 20px;
-    border-radius: 10px;
+    background-color: #ffd1d7;
+    padding: 60px;
+    border-radius: 15px;
     box-shadow: 3px 3px 5px 5px #efe4e3;
 
     h1{
@@ -126,9 +127,9 @@ main{
     }
 
     p{
+        font-size: 20px;
         line-height: 30px;
         text-align: justify;
-        font-size: 16px;
         margin-bottom: 18px;
     }
 
@@ -148,11 +149,13 @@ footer{
     }
 
     h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffa700;
         font-size: 30px;
         margin-bottom: 20px;
     }
     a{
-        margin: 20px;
+        margin: 30px;
         img{
             width: 50px;
         }
