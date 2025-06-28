@@ -1,7 +1,5 @@
-
-
-
 @media only screen and (max-width: 600px){
+    
     
     body{
         text-align: center;
@@ -29,133 +27,32 @@
 
     main{
         display: block;
-        justify-content: center;
-        .nossosServicos{
+        justify-items: center;
+
+        .imgg{
+            text-align: center;
+        }
+
+        .nossosServicos, video {
             display: none;
         }
-    }
 
-    .imgg{
-        justify-items: center;
-  
-        img{
-            width: 300px;
-        }
-
-        .menuu{
-            display: flex;
-         
-        }
-    }
-
-    .video{
-        display: none;
     }
 
     .agenda{
-        top: 1420px;
         position: absolute;
-        width: 100%;
-        margin-top: -20%;
     }
     
     .conteud{
-        height: 700px;
         margin: 10px;
         margin-bottom: 120px;
  
     }
     
 
-
 }
 
-
-@media only screen and (min-width: 600px){
-
-        body{
-        text-align: center;
-    }
-
-
-    header{
-
-        .logo{
-            flex: 50%;
-            margin-left: 122px;
-        }
-            .menu{
-                flex: 50%;
-                display: block;
-            }
-
-            nav{
-                display: none;
-            }
-
-
-    }
-
-
-    main{
-        display: block;
-        justify-content: center;
-
-        .nossosServicos{
-            display: block;
-        }
-    }
-
-    .imgg{
-
-        img{
-            width: 300px;
-        }
-
-        .menuu{
-            padding: 15px;
-            text-align: center;
-            display: inline;
-        }
-    }
-
-    .video{
-        display:block;
-    }
-
-    .agenda{
-        top: 1520px;
-        position: absolute;
-        width: 100%;
-        margin-top: -20%;
-    }
-    
-    .conteud{
-        justify-items: center;
-        text-align: center;
-        height: 600px;
-        margin: 10px;
-        margin-bottom: 220px;
-
-        .video{
-            margin-left: 90px;
-        }
- 
-    }
-
-
-    
-
-
-}
-
-
-@media only screen and (min-width: 780px){
-
-        body{
-        text-align: center;
-    }
-
+@media only screen and (max-width: 780px){
 
     header{
 
@@ -178,457 +75,34 @@
 
     main{
         display: block;
-        justify-content: center;
-        .nossosServicos{
-            display: none;
+        justify-items: center;
+
+        .imgg{
+            text-align: center;
         }
     }
 
-    .imgg{
-        img{
-            width: 300px;
-        }
-
-        .menuu{
-            display: block;
-            letter-spacing: 3px;
-        }
-    }
-
-    .video{
-        display: none;
-    }
 
     .agenda{
-        top: 1420px;
-        position: absolute;
-        width: 100%;
-        margin-top: -20%;
+        bottom: 120px;
+        margin-left: 40px;    
     }
     
     .conteud{
-        height: 700px;
         margin: 10px;
         margin-bottom: 120px;
  
     }
     
 
-
-}
-
-
-@media only screen and (min-width: 600px){
-
-        body{
-            position: absolute;
-            z-index: 0;
-            text-align: center;
-
-    }
-
-
-    header{
-        top: 0;
-        position: fixed;
-        z-index: 2;
-        width: 100%;
-
-        .logo{
-            flex: 50%;
-            margin-left: 122px;
-        }
-            .menu{
-                flex: 50%;
-                display: none;
-            }
-
-            nav{
-                display: block;
-            }
-
-
-    }
-
-
-    main{
-        margin-top: 150px;
-        position: relative;
-        display: flex;
-        justify-content: center;
-
-        .nossosServicos{
-            display:inline-block
-        }
-    }
-
-    .imgg{
-        display: block;
-        align-items: center;
-        img{
-            width: 300px;
-        }
-
-        .menuu{
-            display: block;
-        }
-    }
-
-    .video{
-        text-align: center;
-        display: block;
-        margin-left: 900px;
-    }
-
-    .agenda{
-        top: 1000px;
-        position: absolute;
-        z-index: 1;
-        width: 300px;
-        margin-top: 1px;
-    }
-    
-    .conteud{
-
-        text-align: center;
-        height: 800px;
-        margin: 10px;
-        margin-bottom: 50px;
-
-    }
 }
 
 
 @media (min-width: 982px) and (min-width: 1080px ){
 
-            body{
-            position: absolute;
-            z-index: 0;
-            text-align: center;
-
-    }
-
-
-    header{
-        top: 0;
-        position: fixed;
-        z-index: 2;
-        width: 100%;
-
-        .logo{
-            flex: 50%;
-            margin-left: 122px;
-        }
-            .menu{
-                flex: 50%;
-                display: none;
-            }
-
-            nav{
-                display: block;
-            }
-
-
-    }
-
-
-    main{
-        margin-top: 150px;
-        position: relative;
-        display: flex;
-        justify-content: center;
-
-        .nossosServicos{
-            display:inline-block
-        }
-    }
-
-    .imgg{
-        display: block;
-        align-items: center;
-        img{
-            width: 300px;
-        }
-
-        .menuu{
-            text-align: center;
-            display: block;
-        }
-    }
-
-    .video{
-        text-align: center;
-        display: block;
-        margin-left: 100px;
-    }
-
-    .agenda{
-        top: 1000px;
-        position: absolute;
-        z-index: 1;
-        width: 300px;
-        margin-top: 1px;
-    }
-    
-    .conteud{
-
-        text-align: center;
-        height: 800px;
-        margin: 10px;
-        margin-bottom: 50px;
-
-    }
-
-}
-
-
-@media only screen and (min-width: 1200px){
-
-            body{
-            position: absolute;
-            z-index: 0;
-            text-align: center;
-
-    }
-
-
-    header{
-        top: 0;
-        position: fixed;
-        z-index: 2;
-        width: 100%;
-
-        .logo{
-            flex: 50%;
-            margin-left: 122px;
-        }
-            .menu{
-                flex: 50%;
-                display: none;
-            }
-
-            nav{
-                display: block;
-            }
-
-
-    }
-
-
-    main{
-        margin-top: 150px;
-        position: relative;
-        display: flex;
-        justify-content: center;
-
-        .nossosServicos{
-            display:inline-block
-        }
-    }
-
-    .imgg{
-        display: block;
-        align-items: center;
-        img{
-            width: 300px;
-        }
-
-        .menuu{
-            text-align: center;
-            display: block;
-        }
-    }
-
-    .video{
-        text-align: center;
-        display: block;
-        margin-left: 900px;
-    }
-
-    .agenda{
-        top: 1000px;
-        position: absolute;
-        z-index: 1;
-        width: 300px;
-        margin-top: 1px;
-    }
-    
-    .conteud{
-
-        text-align: center;
-        height: 800px;
-        margin: 10px;
-        margin-bottom: 50px;
-
-    }
-    
-
-}
-
-
-@media only screen and (min-width: 1400px){
-
-            body{
-            position: absolute;
-            z-index: 0;
-            text-align: center;
-
-    }
-
-
-    header{
-        top: 0;
-        position: fixed;
-        z-index: 2;
-        width: 100%;
-
-        .logo{
-            flex: 50%;
-            margin-left: 122px;
-        }
-            .menu{
-                flex: 50%;
-                display: none;
-            }
-
-            nav{
-                display: block;
-            }
-
-
-    }
-
-
-    main{
-        margin-top: 150px;
-        position: relative;
-        display: flex;
-        justify-content: center;
-
-        .nossosServicos{
-            display:inline-block
-        }
-    }
-
-    .imgg{
-        display: block;
-        align-items: center;
-        img{
-            width: 300px;
-        }
-
-        .menuu{
-            text-align: center;
-            display: block;
-        }
-    }
-
-    .video{
-        text-align: center;
-        display: block;
-        margin-left: 900px;
-    }
-
-    .agenda{
-        top: 1000px;
-        position: absolute;
-        z-index: 1;
-        width: 300px;
-        margin-top: 1px;
-    }
-    
-    .conteud{
-
-        text-align: center;
-        height: 800px;
-        margin: 10px;
-        margin-bottom: 50px;
-
-    }
-
-
 }
 
 
 @media only screen and (min-width: 1456px){
-
-            body{
-            position: absolute;
-            z-index: 0;
-            text-align: center;
-
-    }
-
-
-    header{
-        top: 0;
-        position: fixed;
-        z-index: 2;
-        width: 100%;
-
-        .logo{
-            flex: 50%;
-            margin-left: 122px;
-        }
-            .menu{
-                flex: 50%;
-                display: none;
-            }
-
-            nav{
-                display: block;
-            }
-
-
-    }
-
-
-    main{
-        margin-top: 150px;
-        position: relative;
-        display: flex;
-        justify-content: center;
-
-        .nossosServicos{
-            display:inline-block
-        }
-    }
-
-    .imgg{
-        display: block;
-        align-items: center;
-        img{
-            width: 300px;
-        }
-
-        .menuu{
-            text-align: center;
-            display: block;
-        }
-    }
-
-
-
-    .agenda{
-        top: 1000px;
-        position: absolute;
-        z-index: 1;
-        width: 300px;
-        margin-top: 1px;
-    }
-    
-    .conteud{
-        justify-items: center;
-        height: 1000px;
-        margin: 10px;
-        margin-bottom: 100px;
-
-        .video{
-        text-align: center;
-        display: block;
-        width: 1000px;
-    }
-
-    }
 
 }
