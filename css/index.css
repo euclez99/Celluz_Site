@@ -9,6 +9,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
+    top: 0;
+    position: fixed;
+    width: 100%;
     align-items: center;
     display: flex;
     background-color: #ffd1d7;
@@ -80,35 +83,50 @@ header{
 }
 
 main{
+
     display: flex;
-    align-items: center;
+    margin-top: 190px;
+    margin-bottom: 90px;
+    justify-content: center;
+
+    .imgg{
+            max-width: 300px;
+            text-align: center;
+            flex: 50%;
+            margin: 20px;
+
+        .fotomidia{
+        
+                width: 300px;
+            }
+            a{
+                display: block;
+                text-decoration: none;
+                border-radius: 10px;
+                padding: 20px 80px 20px 80px;
+                background-color: #ffa700;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                letter-spacing: 3px;   
+            }
+
+            a:hover{
+                background-color: #810380;
+            }
+            
+    }
 }
 
-.imgg{
-    img{
-        width: 350px;
-    }
-    a{
-        text-decoration: none;
-        border-radius: 10px;
-        padding: 20px 80px 20px 80px;
-        background-color: #ffa700;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-left: 40px;
-        font-weight: bolder;
-        letter-spacing: 3px;
-        
-    }
-    a:hover{
-        background-color: #810380;
-    }
-}
+
 .conteud{
-    background-color: #ffd1d7;
+    flex: 50%;
+    max-width: 550px;
+    background-color: white;
     padding: 60px;
     border-radius: 15px;
     box-shadow: 3px 3px 5px 5px #efe4e3;
+    text-align: center;
 
     h1{
         color: white;
@@ -140,13 +158,12 @@ main{
 
 footer{
 
-    background-color: #ffd1d7;
-    text-align: center;
-    width: 100%;
+        background-color: #ffd1d7;
+        text-align: center;
     
     .contactos{
-        font-size: 40px;
-    }
+            font-size: 40px;
+        }
 
     h1{
         font-family: Arial, Helvetica, sans-serif;
@@ -156,36 +173,31 @@ footer{
     }
     a{
         margin: 30px;
+            img{
+                width: 50px;
+             }
+    }
+
+    .agenda{
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            background-color: #f5f5f5;
+            width: 270px;
+            height: 70px;
+            border-radius: 15px;
         img{
             width: 50px;
         }
-    }
-}
 
-.agenda{
-    z-index: 2;
-    right: 0;
-    bottom: 5%;
-    position: fixed;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    background-color: #f5f5f5;
-    width: 270px;
-    height: 70px;
-    border-radius: 15px;
-    margin: 10px;
-
-    img{
-        width: 50px;
-    }
-
-    a{
-        text-decoration: none;
-        font-size: 30px;
-        color: green;
-        margin: 10px;
+        a{
+            text-decoration: none;
+            font-size: 30px;
+            color: green;
+            margin: 10px;
         
-    }
+        }
     
+    }
 }
+
