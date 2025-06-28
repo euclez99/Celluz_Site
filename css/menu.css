@@ -28,16 +28,15 @@ header{
 }
 
 main{
-    position: relative;
-    z-index: -1;
-    margin-top: 100px;
+
+    margin: auto;
 
 }
 
 
-.princi{
+#princi_1,#princi_2,#princi_3,#princi_4{
 
-    margin-left: 90px ;
+   margin: auto;
     display: flex;
     flex-wrap: wrap;
     
@@ -63,9 +62,8 @@ main{
         width: 150px;
     }
 }
-}
 
-div .conteudo{
+.conteudo{
     background-color: #810380;
     display: flex;
     justify-content: center;
@@ -74,6 +72,9 @@ div .conteudo{
     margin: 0;
     margin-bottom: 8px;
 }
+}
+
+
 
 table{
     bottom: 200px;
@@ -99,7 +100,7 @@ table{
 .agenda{
     z-index: 2;
     right: 0;
-    bottom: 5%;
+    bottom: 0;
     position: fixed;
     justify-content: center;
     display: flex;
@@ -125,13 +126,13 @@ table{
 }
 
 footer{
+    margin-top: 90px;
     background-color: #ffd1d7;
     text-align: center;
     height: 90px;
     align-items: center;
     
     a{
-        margin-top: 800px;
         text-decoration: none;
         font-size: 20px;
         background-color: #ffa700;
@@ -144,5 +145,26 @@ footer{
     a:hover{
         background-color: #810380;
         color: #ffa700;
+    }
+}
+
+.catego_1{
+    padding: 20px;
+    background-color: #ffa700;
+    text-align: center;
+    margin: 30px 10px 30px 10px;
+    border-radius: 15px;
+    
+    button{
+        background-color: #f7ba49;
+        padding: 20px;
+        font-size: 30px;
+        border: none;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+
+    button:hover{
+        background-color: #810380;
     }
 }
