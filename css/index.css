@@ -69,14 +69,16 @@ header{
 }
 
 #out{
+    top: 70px;
+    right: 0;
     display: none;
-    top: 100px;
-    left: 200px;
     background-color: #810380;
     height: 250px;
     padding: 20px;
     position: absolute;
     li{
+        font: 14px;
+        font-weight: bolder;
         display: block;
         padding: 20px;
     }
@@ -184,7 +186,8 @@ footer{
         bottom: 0;
         right: 0;
         margin: 20px 20px 120px 20px;
-        width: 400px;
+        width: 300px;
+        height: 75px;
         border: 1px solid green;
         justify-content: center;
         display: flex;
@@ -200,7 +203,6 @@ footer{
             text-decoration: none;
             font-size: 30px;
             color: green;
-            margin: 10px;
         
         }
     

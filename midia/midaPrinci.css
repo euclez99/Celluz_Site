@@ -39,8 +39,23 @@
 
     }
 
-    .agenda{
-        position: absolute;
+        #out{
+        margin: 0;
+        }
+
+    footer{
+            .agenda{
+        
+                position: static;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                background-color: #f5f5f5;
+                border-radius: 0px;
+                width: 100%;
+                margin: 0;
+                border: none;
+    }
     }
     
     .conteud{
@@ -82,12 +97,22 @@
         }
     }
 
+    #out{
+        margin: 10px;
+    }
+
 
     .agenda{
-        bottom: 120px;
-        margin-left: 40px;    
+        
+        position: static;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        background-color: #f5f5f5;
+        border-radius: 0px;
+        width: 100%;
+        margin: 0;
     }
-    
     .conteud{
         margin: 10px;
         margin-bottom: 120px;

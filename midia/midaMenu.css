@@ -1,25 +1,77 @@
 
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 747px){
+
 
     header{
 
         h1{
-            font-size: 30px;
+            font-size: 40px;
             letter-spacing: 1px;
         }
         
     }
 
+
+    .nosso1{
+        display: none;
+    }
+
+    .nosso{
+        display: block;
+    }
+
     #princi_1,#princi_2,#princi_3,#princi_4{
         display: none;
-        margin-left: 0px;
-        margin-bottom: 160px;
+        margin-bottom: 60px;
+    }
+
+        #maisBaixo{
+        margin-top: 100px;
     }
 
     .agenda{
-        top: 872px;
+        
+        position: static;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        background-color: #f5f5f5;
+        border-radius: 0px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .catego_1{
+        justify-items: center;
+
+    }
+
+    button{
+        text-align: center;
+        display: flex;
+        flex-wrap: row wrap;
+        align-items: center;
+        color: white;
+        width: 350px;
+
+        h1{
+            font-size: 20px;
+
+        }
+
+        
+        img{
+            width: 40px;
+            padding: 5px;
+            margin-left: 5px;
+
+        }
+
+        #desceu1,#desceu2,#desceu3,#desceu4{
+            display: none;
+        }
     }
 }
 
@@ -35,47 +87,17 @@
         
     }
 
-    .princi{
-        margin-left: 0px;
-    }
+    button{
 
+        h1{
+            font-size: 30px;
 
-}
-
-
-@media only screen and (min-width: 780px){
-
-        .princi{
-            margin-left: 100px;
-            margin-bottom: 90px;
         }
-
-
-}
-
-
-@media (min-width: 982px) and (min-width: 1080px ){
-
-    .princi{
-        margin-left: 100px;
-        margin-bottom: 90px;
+        width: 490px;
     }
 
-}
-
-
-@media only screen and (min-width: 1200px){
-    
-
-}
-
-
-@media only screen and (min-width: 1400px){
 
 
 }
 
 
-@media only screen and (min-width: 1456px){
-
-}
