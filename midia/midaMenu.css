@@ -24,6 +24,7 @@
 
     #princi_1,#princi_2,#princi_3,#princi_4{
         display: none;
+        justify-items: center;
         margin-bottom: 60px;
     }
 
