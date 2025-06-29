@@ -103,6 +103,7 @@
 
 
     .agenda{
+        border: none;
         
         position: static;
         justify-content: center;
