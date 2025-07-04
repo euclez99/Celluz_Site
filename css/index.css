@@ -7,216 +7,161 @@
 
 
 body{
-    background-color: #fae5e8;
+    background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
-    top: 0;
-    position: fixed;
+.imgPrincipal{
+    background-image: url(../img/CAPA\ grande.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
-    align-items: center;
-    display: flex;
-    background-color: #ffd1d7;
-    border-bottom: 4px solid #810380;
-    box-shadow: 1px 4px 5px #795e62;
-
-    .logo{
-        align-items: center;
-        display: flex;
-        flex: 50%;
-        margin-left: 150px;
-
-        img{
-            width: 100px;
-            margin: 5px;
-        }
-
-    }
-
-    nav{
-        flex: 50%;
-        margin-left: 90px;
-    }
+    height: 380px;
     
-    li{
-        display: inline-block;
-        padding: 15px;
-        margin: 10px;
-        background-color: #ffa700;
-        border-radius: 10px;
-
-    }
-
-    .menu{
-        background-color: #ffd1d7;
-        border-radius: 50%;
-        border: none;
-        display: none;
-        img{
-            width: 50px;
-        }
-    }
-
-    
-    a{
-         color: rgb(255, 255, 255);
-        text-decoration: none;
-
-    }
-
-    li:hover{
-        background-color: #810380;
-        cursor: pointer;
+    img{
+        width: 1350px;
     }
 }
 
-#out{
-    top: 70px;
-    right: 0;
-    display: none;
-    background-color: #810380;
-    height: 250px;
-    padding: 20px;
-    position: absolute;
-    li{
-        font: 14px;
-        font-weight: bolder;
-        display: block;
-        padding: 20px;
-    }
-}
-
-main{
-
-    display: flex;
-    margin-top: 190px;
-    margin-bottom: 90px;
-    justify-content: center;
-
-    .imgg{
-            max-width: 300px;
-            text-align: center;
-            flex: 50%;
-            margin: 20px;
-
-        .fotomidia{
-        
-                width: 300px;
-            }
-            a{
-                display: block;
-                text-decoration: none;
-                border-radius: 10px;
-                padding: 20px 80px 20px 80px;
-                background-color: #ffa700;
-                color: white;
-                font-family: Arial, Helvetica, sans-serif;
-                font-weight: bolder;
-                letter-spacing: 3px;   
-            }
-
-            a:hover{
-                background-color: #810380;
-            }
-            
-    }
-}
-
-
-.conteud{
-    flex: 50%;
-    max-width: 550px;
-    background-color: white;
-    padding: 60px;
-    border-radius: 15px;
-    box-shadow: 3px 3px 5px 5px #efe4e3;
+nav{
+    background-color: #fbfbfb;
     text-align: center;
 
-    h1{
-        color: white;
-        letter-spacing: 3px;
-        font-size: 50px;
-        margin-bottom:20px;
-        margin-top: 5px;
-        padding: 10px;
-        background-color: #810380;
+    li{
         display: inline-block;
-        border-radius: 10px;
+        margin: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
     }
 
-    .nossosServicos{
-        font-size: 30px;
+    li a{
+        text-decoration: none;
+        color: black;
+        padding: 5px;
     }
 
-    p{
-        font-size: 20px;
-        line-height: 30px;
-        text-align: justify;
-        margin-bottom: 18px;
+    
+    li a:hover{
+        border-bottom:  4px solid red;
     }
 
-    .video{
-        width: 550px;
+
+
+
+
+    #diferente{
+        display: none;
+        background-color: #ffebed;
+        
+        li{
+            font-size: 20px;
+            display: block;
+            padding: 10px;
+            margin: 5px;
+        }
+    }
+
+    button{
+        display: none;
+        background-color: #fbfbfb;
+        border: none;
+        margin: 10px;
+    }
+
+    button img{
+        width: 50px;
+    }
+}
+
+
+main{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    .img{
+        margin-right: 20px;
+        a{
+            text-decoration: none;
+        }
+        
+        .agendamento{
+            justify-content: center;
+            border-radius: 15px;
+            color: white;
+            background-color: #ffccd1;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+
+            img{
+                width: 50px;
+                margin: 20px;
+            }
+        }
+
+        .agendamento:hover{
+            transform: scale(1.1);
+            transition: transform 0.7s;
+        }
+          
+            .menuSr {
+                width: 300px;
+            }
+        
+    }
+
+    .conteudo{
+        background-color: #fbfbfb;
+        border: 4px solid #ffebed;
+        border-radius: 15px;
+        max-width: 650px;
+        padding: 50px;
+        text-align: center;
+        box-shadow: 5px 5px 9px 5px rgba(212, 212, 212, 0.274);
+        
+        h1{
+            font-size: 40px;
+            letter-spacing: 3px;
+            text-align: center;
+            padding: 20px;
+        }
+        p{
+            text-align: justify;
+            margin: 20px;
+            font-size: 20px;
+        }
+
+        video{
+            margin-top: 20px;
+            width: 500px;
+        }
+
     }
 }
 
 footer{
-    box-shadow: 6px 5px 10px 5px #795e62;
-    z-index: 0;
-    background-color: #ffd1d7;
+    margin-top: 40px;
+    padding: 10px;
     text-align: center;
+    background-color: #fbfbfb;
+    border-top: 3px solid #ffebed;
+    box-shadow: 5px 5px 9px 5px rgba(212, 212, 212, 0.274);
 
-    a{
-        margin: 30px;
-            img{
-                border-radius: 50%;
-                width: 50px;
-                box-shadow: 5px 5px 5px #e9bec4;
-             }
-    }
-    
-    .contactos{
-            font-size: 50px;
-        }
-
-    .contact{
-        letter-spacing: 2px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #ffa700;
-        font-size: 50px;
-        margin-bottom: 20px;
+    img{
+        box-shadow: 5px 5px 9px 2px rgb(196, 196, 196);
+        width: 60px;
+        margin: 20px;
+        border-radius: 100%;
     }
 
+    img:hover{
+        transform: scale(1.2);
+        transition: transform 0.20s;
+
+    }
 
 }
-
- .agenda{
-        z-index: 1;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        margin: 20px 20px 120px 20px;
-        width: 300px;
-        height: 75px;
-        border: 3px solid green;
-        justify-content: center;
-        display: flex;
-        align-items: center;
-        background-color: #f5f5f5;
-        border-radius: 15px;
-        
-        #whatsapp{
-            width: 60px;
-            box-shadow: 5px 5px 5px rgba(111, 156, 111, 0.644);
-        }
-
-        a{
-            text-decoration: none;
-            font-size: 30px;
-            color: green;
-            box-shadow: none;
-        
-        }
-    
-    }
 

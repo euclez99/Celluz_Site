@@ -3,1334 +3,560 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Document</title>
     <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../midia/midaMenu.css">
 </head>
 <body>
-    <header>
-        <h1>NOSSO MENU</h1>
+    
+    <header >
+        <h1>Nosso Menu</h1>
     </header>
-    <main class="nosso">
-        
-        <div class="catego_1" id="maisBaixo">
-            <button id="botaoDoce" onclick="clicou1()"><h1> DOCES & SALGADOS </h1><img id="subio1" src="../img/subio.png" alt="img1"> <img id="desceu1" src="../img/desceu.png" alt=""></button>
-        </div>
-        <div id="princi_1" onclick="vazou1()">
-            <div>
-                <div class="conteudo">    
-                    <img src="imgComida/ovos.png" alt="">
-                    <h1>PEQUENOS ALMOÇOS</h1>
-                </div>
 
-                <table>
-                    <tbody>
+    <main>
+        <button>DOCES E SALGADOS<img id="subio1" onclick="abrir()" src="../img/subio.png" alt=""> <img id="desceu1" src="../img/desceu.png" alt=""></button>
+        <div class="docesSalgados">
 
-                        <tr>
-                            <td>Omolete Misto</td>
-                            <td class="preco">4.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Omolete Verde</td>
-                            <td class="preco">3.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Omolete de Fiambre</td>
-                            <td class="preco">3.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Omolete de Queijo</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Omolete de Atum</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Ovos Mexidos Mista</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Ovo Mexidos c/ Fiambre</td>
-                            <td class="preco">3.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Ovos Mexidos c/ Queijo</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-
-            </div>
-
-            <div>
-                <div class="conteudo"> 
-                    <img src="imgComida/samucha.png" alt="">
-                    <h1>SNACKS</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Fahita de Frango</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Fahita de Carne</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Fahita Mista</td>
-                            <td class="preco">5.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Waflle de Frango</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Waflle Bom Dia</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Crepioca de Frango</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Caprioca de Atum</td>
-                            <td class="preco">3.500 Kz</td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-            </div>
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/sanduichi.png" alt="">
-                    <h1>TOSTAS</h1>
-                </div>
-                    <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Tosta Mista</td>
-                            <td class="preco">3.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Tosta de Atum</td>
-                            <td class="preco">3.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Tosta de Queijo</td>
-                            <td class="preco">3.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Tosta de Fiambre</td>
-                            <td class="preco">3.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Tosta CELLUZ</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-
-                    </tbody>
-
-                </table>
-            </div>
-
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/croquetes.png" alt="">
-                    <h1>SALGADOS</h1>
-                </div>
-                    <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Chamussa</td>
-                            <td class="preco">1.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Coxinha</td>
-                            <td class="preco">600 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Croquete</td>
-                            <td class="preco">600</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Pasteis de Massa Terra</td>
-                            <td class="preco">600 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Ressois Diversos</td>
-                            <td class="preco">600 Kz</td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-            </div>
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/paodoce.png" alt="">
-                    <h1>PÃO DE LEITE</h1>
-                </div>
-                    <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Pão de Leite Misto</td>
-                            <td class="preco">3.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Pão de Leite C/Fiambre</td>
-                            <td class="preco">3.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Pão de Leite C/Queijo</td>
-                            <td class="preco">3.000 Kz</td>
-                        </tr>
-                        
-                    </tbody>
-
-                </table>
-            </div>
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/crossaint.png" alt="">
-                    <h1>PÃES DOCES</h1>
-                </div>
-                    <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Croissant Misto</td>
-                            <td class="preco">3.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Croissant C/ Atum</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Croissant C/ Fiambre</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Croissant CELLUZ</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-            
-                    </tbody>
-
-                </table>
-            </div>
-            
-
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/pizza1.png" alt="">
-                    <h1>PIZZA</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Pizza de Frango</td>
-                            <td class="preco">12.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Pizza de Carne</td>
-                            <td class="preco">12.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Pizza 4 Estação</td>
-                            <td class="preco">15.000 Kz</td>
-                        </tr>
-                    
-                    </tbody>
-
-                </table>
-            </div>
-        </div>
-
-        <div class="catego_1">
-            <button id="botaoprato" onclick="clicou2()"><h1>PRATO QUENTES</h1><img id="subio2" src="../img/subio.png" alt="img1"> <img id="desceu2" src="../img/desceu.png" alt=""></button>
-        </div>
-        <div id="princi_2" onclick="vazou2()">
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/bitoque.png" alt="">
-                    <h1>PRATOS QUENTES</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Feijoada Brasileira</td>
-                            <td class="preco">7.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Bitoque</td>
-                            <td class="preco">7.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Prego no Prato</td>
-                            <td class="preco">3.500 Kz</td>
-                        </tr>
-                        
-                    </tbody>
-
-                </table>
-            </div>
-                        
-            <div>
-                 <div class="conteudo">
-                    <img src="imgComida/sopa.png" alt="">
-                    <h1>SOPA</h1>
-                </div>
-                    <table>
-                    <tbody>
-
-
-                        <tr>
-                            <td>Sopa de Feijão</td>
-                            <td class="preco">2.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Sopa de Legumes</td>
-                            <td class="preco">2.000 Kz</td>
-                        </tr>
-                        
-                    </tbody>
-
-                </table>
-            </div>
-            
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/saladafria.png" alt="">
-                    <h1>SALADAS FRIAS</h1>
-                </div>
-                    <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Salada de Atum</td>
-                            <td class="preco">6.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Salada de Frango</td>
-                            <td class="preco">6.500 Kz</td>
-                        </tr>
-                        
-                    </tbody>
-
-                </table>
-            </div>
-
-        </div>
-        
-        <div class="catego_1">
-            <button id="botaoNatura" onclick="clicou3()"><h1> SUMOS NATURAIS </h1><img id="subio3" src="../img/subio.png" alt="img1"> <img id="desceu3" src="../img/desceu.png" alt=""></button>
-        </div>
-        <div id="princi_3" onclick="vazou3()">   
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/saladafruta.png" alt="">
-                    <h1>SALADAS DE FRUTAS</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Salada de Fruta Copo Jumbo</td>
-                            <td class="preco">6.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Copo Meio</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                    
-                    </tbody>
-
-                </table>
-            </div>
-            
-            
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/sumoNtura.png" alt="">
-                    <h1>SUMOS NATURAIS</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Super Mãe</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Tiro de Gengibre</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Anti Celulite</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Hidratante</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                    
-                        <tr>
-                            <td>Xodó CELLUZ</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-
-                        <tr>
-                            <td>Rei Leão</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Tropical Fruit</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-
-                        <tr>
-                            <td>Anti Oxidante</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-            </div>
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/batudo.png" alt="">
-                    <h1>BATIDOS</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Avenida</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Verão Amenu</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Supremo</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Sonho de Luz</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Sensação</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Planta das Cores</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>CELUUZ Fresh</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-            </div>
-            
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/sumo detox.png" alt="">
-                    <h1>MUNDO DOS DITOX</h1>
-
-                </div>
+            <div id="pequenoAlmoço">
                 
-                <table>
-                    <tbody>
 
-                        <tr>
-                            <td>Activador</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Imunidade</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
+                <div class="conteudo"       onclick="fechar()">
+
+                    <div class="titulo">
+                        <img src="imgComida/omoletes.png" alt="">
                         
-                        <tr>
-                            <td>Energétoco</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
+                        <h3>PEQUENO ALMOÇO</h1>
+                    </div>
+
+
+                    <ul class="items">
+                        <li>OMOLETE MISTO ----------------- 4.500,00</li>
+                        <p>Fiambre, queijo, torrada, salada </p>
+
+                        <li>OMOLETE VERDE ----------------- 3.500,00</li>
+                        <p>Cebolinha, salsa, ou pimento </p>
+
+                        <li>OMOLETE DE FIAMBRE ------------ 3.500,00</li>
+                        <P>Fiambre, torrada, manteiga</P>
+
+                        <li>OMOLETE DE QUEIJO ------------- 4.500,00</li>
+                        <p>Queijo, torrafa, salada</p>
+
+                        <li>OMOLETE DE ATUM --------------- 4.500,00</li>
+                        <p>Atum, torrada, salada</p>
+
+                        <li>OVOS MEXIDOS MISTO --------------- 4.500,00</li>
+                        <p>Fiambre, queijo, torrada, salada</p>
+
+                        <li>OVOS MEXIDOS C/ FIAMBRE --------------- 3.500,00</li>
+                        <p>Fiambre, queijo, torrada, salada</p>
+
+                        <li>OVO MEXIDOS C/QUEIJO --------------- 4.500,00</li>
+                        <P>Queijo, torrada, salada</P>
                         
-                        <tr>
-                            <td>Massa ao meu Dia</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
 
-                    </tbody>
+                    </ul>
 
-                </table>
-            </div>
-
-               <div>
-                <div class="conteudo">
-                    <img src="imgComida/garrafa pete1.png" alt="">
-                    <h1>GARRAFAS PETE</h1>
                 </div>
-                <p>Por Encomendas</p>
-                    <table>
-                    <tbody>
 
-                        <tr>
-                            <td>Laranja</td>
-                            <td class="preco">10.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Diversidade de Sabores</td>
-                            <td class="preco">10.000 Kz</td>
-                        </tr>
-                        
+
+                <div class="conteudo" onclick="fechar()">
+
+                <div class="titulo">
+                    <img src="imgComida/samucha.png" alt="">
                     
-                    </tbody>
-
-                </table>
-            </div>
-
-        </div>
-
-        <div class="catego_1">
-            <button id="botaoCafe" onclick="clicou4()"><h1>CAFÉ E BEBIDAS</h1><img id="subio4" src="../img/subio.png" alt="img1"> <img id="desceu4" src="../img/desceu.png" alt=""></button>
-        </div>
-        <div id="princi_4" onclick="vazou4()">
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/café.png" alt="">
-                    <h1>CAFETARIA</h1>
+                    <h3>SNACKS</h1>
                 </div>
-                <table>
-                    <tbody>
+                    <ul class="items">
+                        <li>FAHITA DE FRANGO ----------------- 4.500,00</li>
+                        <p>Frango, cebola, pimento tricolor, milho doce, batata frita </p>
 
-                        <tr>
-                            <td>Café Expresso</td>
-                            <td class="preco">1.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Expresso Duplo</td>
-                            <td class="preco">2.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Abatanado</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Café Americano</td>
-                            <td class="preco">1.500 Kz</td>
-                        </tr>
+                        <li>FAHITA DE CARNE ----------------- 4.500,00</li>
+                        <p>Carne, cebola, pimento tricolor, milho doce, batata frita </p>
 
-                        <tr>
-                            <td>Galão</td>
-                            <td class="preco">2.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Meia de Leite</td>
-                            <td class="preco">2.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Copo de Leite</td>
-                            <td class="preco">2.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Capuccino</td>
-                            <td class="preco">1.500 Kz</td>
-                        </tr>
+                        <li>FAHITA MISTA ------------ 5.000,00</li>
+                        <P>Frango, carne, cebola, pimento tricolor, milho doce, batata frita</P>
 
-                        <tr>
-                            <td>Chocolate Quente</td>
-                            <td class="preco">2.500 Kz</td>
-                        </tr>
+                        <li>WAFLLE DE FRANGO ------------- 4.500,00</li>
+                        <p>Frango, molho Coktail, queijo, ovo, bacon</p>
+
+                        <li>WAFLLE BOM DIA --------------- 4.500,00</li>
+                        <p>Buacamole, ovo, fiambre, queijo, bacon</p>
+
+                        <li>CREPIOCA DE FRANGO --------------- 4.500,00</li>
+                        <p>Frango, recheio, milho doce, creme cremoso, queijo</p>
+
+                        <li>CREPICOCA DE ATUM --------------- 4.700,00</li>
+                        <p>Atum, recheio, milho doce, creme cremoso, queijo</p>
+
+                        <li>CREPIOCA DE CARNE --------------- 4.700,00 </li>
+                        <P>Carne moida, creme cremoso, queijo</P>
+
+                        <li>CLUB SANDUÍCHE --------------- 4.700,00 </li>
+                        <P>Frango, ovo cozido, fiambre, queijo, bacon, batata frita</P>
                         
-                        <tr>
-                            <td>Leite com Chocolate</td>
-                            <td class="preco">2.500 Kz</td>
-                        </tr>
 
-                    </tbody>
+                    </ul>
 
-                </table>
+                </div>
+
+                
+                <div class="conteudo" onclick="fechar()">
+
+                <div class="titulo">
+                    <img src="imgComida/sanduichi.png" alt="">
+                    
+                    <h3>TOSTA</h1>
+                </div>
+                    <ul class="items">
+                        <li>TOSTA MISTA ----------------- 3.000,00</li>
+                        <p>Fiambre, queijo, manteiga </p>
+
+                        <li>TOSTA DE ATUM ----------------- 3.500,00</li>
+                        <p>Atum, ovo cozido, maionese, tomate, alface </p>
+
+                        <li>TOSTA DE QUEIJO ------------ 3.000,00</li>
+                        <P>Queijo, manteiga</P>
+
+                        <li>TOSTA DE FIAMBRE ------------- 3.000,00</li>
+                        <p>Fiambre, manteiga</p>
+
+                        <li>TOSTA DE ABACATE E OVO --------------- 3.500,00</li>
+                        <p>Buacamole, ovo cozido ou estrelado</p>
+
+                        <li>TOSTA CELLUZ</li>
+                        <p>Atum, fiambre, chourição, ovo</p>
+
+                </div>
+
+
+            
+                <div class="conteudo" onclick="fechar()">
+
+                <div class="titulo">
+                    <img src="imgComida/croquetes.png" alt="">
+                    
+                    <h3>SALGADOS</h1>
+                </div>
+                    <ul class="items">
+                        <li>CHAMUSSA ---------------------------- 1.000,00</li>
+    
+                        <li>COXINHA --------------------------------- 600,00</li>
+                        
+
+                        <li>CROQUETE ------------------------------ 600,00</li>
+                        
+
+                        <li>PASTEIS DE MASSA TERRA ------- 600,00</li>
+                        
+                    </ul>
+
+                </div>
+
+
+                              
+                <div class="conteudo" onclick="fechar()">
+
+                <div class="titulo">
+                    <img src="imgComida/paodoce.png" alt="">
+                    
+                    <h3>PÃO DE LEITE</h1>
+                </div>
+                    <ul class="items">
+                        <li>PAO DE LEITE MISTO ----------------- 3.000,00</li>
+                        <p>Fiambre, queijo, manteiga </p>
+
+                        <li>PAO DE LEITE COM FIAMBRE ----------------- 3.000,00</li>
+                        <p>Fiambre, manteiga </p>
+
+                        <li>PÃO DE LEITE COM QUEIJO ------------ 3.000,00</li>
+                        <P>Queijo, manteiga</P>
+
+                        <li>PÃO DE LEITE CELLUZ ------------- 4.500,00</li>
+                        <p>Atum, fiambre, chourição, ovo</p>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="conteudo" onclick="fechar()">
+
+                <div class="titulo">
+                    <img src="imgComida/crossaint.png" alt="">
+                    
+                    <h3>CROSSAINT</h1>
+                </div>
+                    <ul class="items">
+                        <li>CROSSAINT MISTO ----------------- 3.000,00</li>
+                        <p>Queijo, fiambre, manteiga </p>
+
+                        <li>CROSSAINT COM ATUM ----------------- 4.500,00</li>
+                        <p>Atum, maionese, ovo, alface, tomate, ovo cozido </p>
+
+                        <li>CROSSAINT COM QUEIJO ------------ 4.500,00</li>
+                        <P>Queijo, manteiga</P>
+
+                        <li>CROSSAINT COM FIAMBRE ------------- 4.500,00</li>
+                        <p>Fiambre, manteiga</p>
+
+                        <li>CROSSAINT --------------- 4.500,00</li>
+                        <p>Atum, fiambre, chourição, ovo</p>
+
+                    </ul>
+
+                </div>
+
+                
+ 
+
+                <div class="conteudo" onclick="fechar()">
+                <div class="titulo">
+                    <img src="imgComida/pizza.png" alt="">
+                    
+                    <h3>PIZZA</h1>
+                </div>
+                    <ul class="items">
+                        <li>PIZZA DE FRANGO ----------------- 12.000,00</li>
+
+                        <li>PIZZA DE CARNE ----------------- 12.000,00</li>
+
+                        <li>PIZZA 4 ESTAÇOES ------------ 15.000,00</li>
+
+                        
+
+                    </ul>
+
+                </div>
+            </div>
+        
+        </div>
+
+
+
+
+
+
+        <button>PRATOS QUENTES<img id="subio1" onclick="abrir()" src="../img/subio.png" alt=""> <img id="desceu1" src="../img/desceu.png" alt=""></button>
+        <div class="docesSalgados">
+
+            <div id="pequenoAlmoço">
+                
+
+                <div class="conteudo"       onclick="fechar()">
+
+                    <div class="titulo">
+                        <img src="imgComida/prtado quente.png" alt="">
+                        
+                        <h3>PRATOS QUENTES</h1>
+                    </div>
+
+
+                    <ul class="items">
+                        <li>FEIJOADA ----------------- 7.000,00</li>
+        
+                        <li>BITOQUE ----------------- 7.000,00</li>
+                        <p>Carne, batata frita, salada, ovo, arroz </p>
+
+                        <li>PREGO NO PRATO ------------ 6.000,00</li>
+                        <P>Carne, batata frita, salada, ovo, pão</P>
+
+                        <li>PEITO DE FRANGO ------------- 7.000,00</li>
+                        <p>Legumes salteados, batata cozida ou batata frita</p>
+                    </ul>
+
+                </div>
+
+
+                <div class="conteudo" onclick="fechar()">
+
+                <div class="titulo">
+                    <img src="imgComida/sopa.png" alt="">
+                    
+                    <h3>SOPA</h1>
+                </div>
+                    <ul class="items">
+                        <li>SOPA DE FEIJÃO ----------------- 2.000,00</li>
+    
+                        <li>SOPA DE LEGUMES ----------------- 2.000,00</li>
+         
+                    </ul>
+
+                </div>
+
+                
+                <div class="conteudo" onclick="fechar()">
+
+                <div class="titulo">
+                    <img src="imgComida/salada de Atum.png" alt="">
+                    
+                    <h3>SALADA FRIA</h1>
+                </div>
+                    <ul class="items">
+                        <li>SALADA DE ATUM ----------------- 6.000,00</li>
+                       
+
+                        <li>SALADA DE FRANGO ----------------- 6.500,00</li>
+                </div>
+
+
             </div>
 
-            <div>
-                <div class="conteudo">
+
+
+
+
+
+        <button>SUMOS E BATIDOS<img id="subio1" onclick="abrir()" src="../img/subio.png" alt=""> <img id="desceu1" src="../img/desceu.png" alt=""></button>
+        <div class="docesSalgados">
+
+            <div id="pequenoAlmoço">
+                
+
+                <div class="conteudo"       onclick="fechar()">
+
+                    <div class="titulo">
+                        <img src="imgComida/sumo natura.png" alt="">
+                        
+                        <h3>SUMOS NATURAIS</h1>
+                    </div>
+
+
+                    <ul class="items">
+                        <li>SUPER MÃE ----------------- 4.500,00</li>
+                        <p>Banana, melancia, laranja </p>
+
+                        <li>TIRO DE GENGIBRE ----------------- 4.500,00</li>
+                        <p>Cenoura, maçã, laranja, gengibre </p>
+
+                        <li>ANTI CELULITE ------------ 4.500,00</li>
+                        <P>Laranja, beterraba, maçã</P>
+
+                        <li>HIDRATANTE ------------- 4.500,00</li>
+                        <p>Melancia, ananás, hortelã</p>
+
+                        <li>XODO CELLUZ --------------- 4.500,00</li>
+                        <p>Múcua, pitaia, maçã</p>
+
+                        <li>PARAÍSO --------------- 4.500,00</li>
+                        <p>ananás, hortelã, gengibre</p>
+
+                        <li>ANTI OXIDANTE --------------- 4.500,00</li>
+                        <p>Laranja, cenoura, maçã</p>
+
+                        <li>REI LEIÃO --------------- 4.500,00</li>
+                        <P>Melancia, ananás, pitaia</P>
+
+                        <li>TROPICAL FRUIT --------------- 4.500,00</li>
+                        <p>Pitaia, melancia, laranja</p>
+
+                        <li>ROMANCE --------------- 4.500,00</li>
+                        <p>Frutos vermelhos, ananás, maçã</p>
+
+                        <li>BRIZA --------------- 4.500,00</li>
+                        <P>Ananás, maracuja</P>
+                        
+
+                    </ul>
+
+                </div>
+
+
+                <div class="conteudo" onclick="fechar()">
+
+                <div class="titulo">
+                    <img src="imgComida/batido.png" alt="">
+                    
+                    <h3>BAIDOS</h1>
+                </div>
+                    <ul class="items">
+                        <li>AVENIDA ----------------- 4.500,00</li>
+                        <p>Abacate, banana, leite </p>
+
+                        <li>VERÃO AMENU ----------------- 4.500,00</li>
+                        <p>Manga, banana, leite </p>
+
+                        <li>SONHO DA LUZ ------------ 4.500,00</li>
+                        <P>Pitaia, banana, leite</P>
+
+                        <li>SUPER ENERGÉTICO ------------- 4.500,00</li>
+                        <p>Manga, banana, abacate, leite</p>
+
+                        <li>SENSAÇÃO --------------- 4.500,00</li>
+                        <p>Abacate, banana, maracuja, leite</p>
+
+                        <li>PLANTA DAS CORES --------------- 4.500,00</li>
+                        <p>Pitaia, maracuja, banana, aveia, leite</p>
+
+                        <li>CELLUZ FRESH --------------- 4.500,00</li>
+                        <p>Abacate, banana, aveia, leite</p>
+
+
+                </div>
+
+                
+                <div class="conteudo" onclick="fechar()">
+
+                <div class="titulo">
+                    <img src="imgComida/garrafas pets.png" alt="">
+                    
+                    <h3>GARRAFAS PETHS</h1>
+                </div>
+                    <ul class="items">
+                        <p>POR ENCOMENDA</p>
+                        <li>LARANJA ----------------- 10.000,00</li>
+                      
+                        <li>DIVERSIDADES DE SABORES ----------------- 10.00,00</li>
+                        
+
+                </div>
+
+
+            
+                <div class="conteudo" onclick="fechar()">
+
+                <div class="titulo">
+                    <img src="imgComida/ditox.png" alt="">
+                    
+                    <h3>MUNDO DOS DETOX</h1>
+                </div>
+                    <ul class="items">
+                        <li>ACTIVADOR ---------------------------- 4.500,00</li>
+                        <p>Maçã, limão, couve, gengibre</p>
+    
+                        <li>IMUNIDADE --------------------------------- 4.500,00</li>
+                        <p>Laranja, beterraba, gengibre</p>
+                        
+
+                        <li>ENERGÉTICO ------------------------------ 4.500,00</li>
+                        <p>Manga, maracuja, ananás, cenoura</p>
+                        
+
+                        <li>MASSA DO MEU DIA ------- 4600,00</li>
+                        <p>Laranja, ananás, limão, gengibre</p>
+                        
+                    </ul>
+
+                </div>
+
+
+                              
+                <div class="conteudo" onclick="fechar()">
+
+                <div class="titulo">
+                    <img src="imgComida/salada de fruta.png" alt="">
+                    
+                    <h3>SALADA DE FRUTA</h1>
+                </div>
+                    <ul class="items">
+                        <li>COPO JUMBO ----------------- 5.500,00</li>
+                        
+
+                        <li>COPO MÉDIO ----------------- 4.500,00</li>
+
+                </div>
+
+
+            </div>
+        
+        </div>
+
+
+                <button>CAFÉS & CHÁS<img id="subio1" onclick="abrir()" src="../img/subio.png" alt=""> <img id="desceu1" src="../img/desceu.png" alt=""></button>
+        <div class="docesSalgados">
+
+            <div id="pequenoAlmoço">
+                
+
+                <div class="conteudo"       onclick="fechar()">
+
+                    <div class="titulo">
+                        <img src="imgComida/cafetaria.png" alt="">
+                        
+                        <h3>CAFETARIA</h3>
+                    </div>
+
+
+                    <ul class="items">
+                        <li>CAFÉ EXPRESSO ----------------- 1.500,00</li>
+
+
+                        <li>EXPRESSO DUPLO ----------------- 2.000,00</li>
+
+                        <li>ABATANADO ------------ 1.500,00</li>
+                      
+
+                        <li>CAFÉ AMERICANO ------------- 1.500,00</li>
+                      
+
+                        <li>GALÃO --------------- 2.500,00</li>
+                       
+
+                        <li>MEIA DE LEITE --------------- 2.000,00</li>
+                        
+
+                        <li>COPO DE LEITE ---------------2.000,00</li>
+                        
+
+                        <li>CAPUCCINO --------------- 2.500,00</li>
+
+                        <li>CHOCOLATE QUENTE ---------------2.500,00</li>
+                        
+
+                        <li>LEITE COM CHOCOLATE --------------- 2.500,00</li>
+                       
+                        
+
+                    </ul>
+
+                </div>
+
+
+                <div class="conteudo" onclick="fechar()">
+
+                <div class="titulo">
                     <img src="imgComida/chá.png" alt="">
-                    <h1>CHÁ DIVERSOS</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Chá Natural</td>
-                            <td class="preco">1.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Carioca de Limão</td>
-                            <td class="preco">1.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Chá Caxinde</td>
-                            <td class="preco">1.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Chá Capungo Pungo </td>
-                            <td class="preco">1.000 Kz</td>
-                        </tr>
-
-                        <tr>
-                            <td>Chá de Pacote</td>
-                            <td class="preco">2.500 Kz</td>
-                        </tr>
                     
-                    </tbody>
-
-                </table>
-            </div>
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/agua.png" alt="">
-                    <h1>ÁGUA LIZA</h1>
+                    <h3>CHÁ NATURAIS</h1>
                 </div>
-                <table>
-                    <tbody>
+                    <ul class="items">
+                        <li>CHÁ NATURAL ----------------- 1.000,00</li>
 
-                        <tr>
-                            <td>Água Pura</td>
-                            <td class="preco">500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Água Chela</td>
-                            <td class="preco">500 Kz</td>
-                        </tr>
-                    </tbody>
+                        <li>CARIOCA DE LIMÃO ----------------- 1.000,00</li>
 
-                </table>
+                        <li>CHÁ CAXINDE ------------ 1.000,00</li>
+
+                        <li>CHÁ CAPUNGO PUNGO ------------- 1.000,00</li>
+
+                        <li>CHÁ DE PACOTE --------------- 1.000,00</li>
+                    </ul>
+
+                </div>
+
+                
+                <div class="conteudo" onclick="fechar()">
+
+                <div class="titulo">
+                    <img src="imgComida/agua.png" alt="">
+                    
+                    <h3>ÁGUA LIZA</h1>
+                </div>
+                    <ul class="items">
+                        <li>ÁGUA PURA ----------------- 500,00</li>
+
+                        <li>ÁGUA CHELA ----------------- 500,00</li>
+                    </ul>
+                </div>
+
             </div>
+        
         </div>
+
 
     </main>
 
-
-
-
-       <div class="nosso1">
-        
-        <div class="catego_1" id="maisBaixo">
-            <button id="botaoDoce">DOCES & SALGADOS</button>
-        </div>
-        <div id="princi_1">
-            <div>
-                <div class="conteudo">    
-                    <img src="imgComida/ovos.png" alt="">
-                    <h1>PEQUENOS ALMOÇOS</h1>
-                </div>
-
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Omolete Misto</td>
-                            <td class="preco">4.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Omolete Verde</td>
-                            <td class="preco">3.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Omolete de Fiambre</td>
-                            <td class="preco">3.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Omolete de Queijo</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Omolete de Atum</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Ovos Mexidos Mista</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Ovo Mexidos c/ Fiambre</td>
-                            <td class="preco">3.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Ovos Mexidos c/ Queijo</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-
-            </div>
-
-            <div>
-                <div class="conteudo"> 
-                    <img src="imgComida/samucha.png" alt="">
-                    <h1>SNACKS</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Fahita de Frango</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Fahita de Carne</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Fahita Mista</td>
-                            <td class="preco">5.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Waflle de Frango</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Waflle Bom Dia</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Crepioca de Frango</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Caprioca de Atum</td>
-                            <td class="preco">3.500 Kz</td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-            </div>
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/sanduichi.png" alt="">
-                    <h1>TOSTAS</h1>
-                </div>
-                    <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Tosta Mista</td>
-                            <td class="preco">3.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Tosta de Atum</td>
-                            <td class="preco">3.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Tosta de Queijo</td>
-                            <td class="preco">3.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Tosta de Fiambre</td>
-                            <td class="preco">3.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Tosta CELLUZ</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-
-                    </tbody>
-
-                </table>
-            </div>
-
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/croquetes.png" alt="">
-                    <h1>SALGADOS</h1>
-                </div>
-                    <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Chamussa</td>
-                            <td class="preco">1.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Coxinha</td>
-                            <td class="preco">600 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Croquete</td>
-                            <td class="preco">600</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Pasteis de Massa Terra</td>
-                            <td class="preco">600 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Ressois Diversos</td>
-                            <td class="preco">600 Kz</td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-            </div>
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/paodoce.png" alt="">
-                    <h1>PÃO DE LEITE</h1>
-                </div>
-                    <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Pão de Leite Misto</td>
-                            <td class="preco">3.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Pão de Leite C/Fiambre</td>
-                            <td class="preco">3.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Pão de Leite C/Queijo</td>
-                            <td class="preco">3.000 Kz</td>
-                        </tr>
-                        
-                    </tbody>
-
-                </table>
-            </div>
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/crossaint.png" alt="">
-                    <h1>PÃES DOCES</h1>
-                </div>
-                    <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Croissant Misto</td>
-                            <td class="preco">3.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Croissant C/ Atum</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Croissant C/ Fiambre</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Croissant CELLUZ</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-            
-                    </tbody>
-
-                </table>
-            </div>
-            
-
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/pizza1.png" alt="">
-                    <h1>PIZZA</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Pizza de Frango</td>
-                            <td class="preco">12.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Pizza de Carne</td>
-                            <td class="preco">12.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Pizza 4 Estação</td>
-                            <td class="preco">15.000 Kz</td>
-                        </tr>
-                    
-                    </tbody>
-
-                </table>
-            </div>
-        </div>
-
-        <div class="catego_1">
-            <button id="botaoprato">PRATO QUENTES</button>
-        </div>
-        <div id="princi_2">
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/bitoque.png" alt="">
-                    <h1>PRATOS QUENTES</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Feijoada Brasileira</td>
-                            <td class="preco">7.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Bitoque</td>
-                            <td class="preco">7.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Prego no Prato</td>
-                            <td class="preco">3.500 Kz</td>
-                        </tr>
-                        
-                    </tbody>
-
-                </table>
-            </div>
-                        
-            <div>
-                 <div class="conteudo">
-                    <img src="imgComida/sopa.png" alt="">
-                    <h1>SOPA</h1>
-                </div>
-                    <table>
-                    <tbody>
-
-
-                        <tr>
-                            <td>Sopa de Feijão</td>
-                            <td class="preco">2.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Sopa de Legumes</td>
-                            <td class="preco">2.000 Kz</td>
-                        </tr>
-                        
-                    </tbody>
-
-                </table>
-            </div>
-            
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/saladafria.png" alt="">
-                    <h1>SALADAS FRIAS</h1>
-                </div>
-                    <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Salada de Atum</td>
-                            <td class="preco">6.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Salada de Frango</td>
-                            <td class="preco">6.500 Kz</td>
-                        </tr>
-                        
-                    </tbody>
-
-                </table>
-            </div>
-
-        </div>
-        
-        <div class="catego_1">
-            <button id="botaoNatura">SUMOS NATURAIS</button>
-        </div>
-        <div id="princi_3">   
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/saladafruta.png" alt="">
-                    <h1>SALADAS DE FRUTAS</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Salada de Fruta Copo Jumbo</td>
-                            <td class="preco">6.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Copo Meio</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                    
-                    </tbody>
-
-                </table>
-            </div>
-            
-            
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/sumoNtura.png" alt="">
-                    <h1>SUMOS NATURAIS</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Super Mãe</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Tiro de Gengibre</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Anti Celulite</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Hidratante</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                    
-                        <tr>
-                            <td>Xodó CELLUZ</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-
-                        <tr>
-                            <td>Rei Leão</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Tropical Fruit</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-
-                        <tr>
-                            <td>Anti Oxidante</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-            </div>
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/batudo.png" alt="">
-                    <h1>BATIDOS</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Avenida</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Verão Amenu</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Supremo</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Sonho de Luz</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Sensação</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Planta das Cores</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>CELUUZ Fresh</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-            </div>
-            
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/sumo detox.png" alt="">
-                    <h1>MUNDO DOS DITOX</h1>
-
-                </div>
-                
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Activador</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Imunidade</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Energétoco</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Massa ao meu Dia</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-            </div>
-
-               <div>
-                <div class="conteudo">
-                    <img src="imgComida/garrafa pete1.png" alt="">
-                    <h1>GARRAFAS PETE</h1>
-                </div>
-                <p>Por Encomendas</p>
-                    <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Laranja</td>
-                            <td class="preco">10.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Diversidade de Sabores</td>
-                            <td class="preco">10.000 Kz</td>
-                        </tr>
-                        
-                    
-                    </tbody>
-
-                </table>
-            </div>
-
-        </div>
-
-        <div class="catego_1">
-            <button id="botaoCafe">CAFÉ E BEBIDAS</button>
-        </div>
-        <div id="princi_4">
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/café.png" alt="">
-                    <h1>CAFETARIA</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Café Expresso</td>
-                            <td class="preco">1.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Expresso Duplo</td>
-                            <td class="preco">2.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Abatanado</td>
-                            <td class="preco">4.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Café Americano</td>
-                            <td class="preco">1.500 Kz</td>
-                        </tr>
-
-                        <tr>
-                            <td>Galão</td>
-                            <td class="preco">2.500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Meia de Leite</td>
-                            <td class="preco">2.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Copo de Leite</td>
-                            <td class="preco">2.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Capuccino</td>
-                            <td class="preco">1.500 Kz</td>
-                        </tr>
-
-                        <tr>
-                            <td>Chocolate Quente</td>
-                            <td class="preco">2.500 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Leite com Chocolate</td>
-                            <td class="preco">2.500 Kz</td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-            </div>
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/chá.png" alt="">
-                    <h1>CHÁ DIVERSOS</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Chá Natural</td>
-                            <td class="preco">1.000 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Carioca de Limão</td>
-                            <td class="preco">1.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Chá Caxinde</td>
-                            <td class="preco">1.000 Kz</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>Chá Capungo Pungo </td>
-                            <td class="preco">1.000 Kz</td>
-                        </tr>
-
-                        <tr>
-                            <td>Chá de Pacote</td>
-                            <td class="preco">2.500 Kz</td>
-                        </tr>
-                    
-                    </tbody>
-
-                </table>
-            </div>
-
-            <div>
-                <div class="conteudo">
-                    <img src="imgComida/agua.png" alt="">
-                    <h1>ÁGUA LIZA</h1>
-                </div>
-                <table>
-                    <tbody>
-
-                        <tr>
-                            <td>Água Pura</td>
-                            <td class="preco">500 Kz</td>
-                        </tr>
-                        <tr>
-                            <td>Água Chela</td>
-                            <td class="preco">500 Kz</td>
-                        </tr>
-                    </tbody>
-
-                </table>
-            </div>
-        </div>
-
-    </div>
-
     <footer>
-        <a href="../index.html">Página Inicial</a>
+        <h1><a href="../index.html">PÁGINA INICIAL</a></h1>
     </footer>
-
-        <div class="agenda">
-            <h1><a href="#">Encomenda</a></h1>
-            <a href="https://www.contate.me/tecnoinovacao"><img src="../img/whatsaap.png" alt=""></a>
-    </div>
-
     <script src="../codigo/jsCod.js"></script>
 </body>
 </html>
