@@ -25,8 +25,7 @@ header{
 main{
     padding: 30px;
     margin: auto;
-    max-width: 1020px;
-
+    
         button{
         margin: auto;
         background-color: #fbfbfb;
@@ -41,7 +40,6 @@ main{
 }
 
 #pequenoAlmoço{
-    width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -51,20 +49,29 @@ main{
 
 .conteudo{
     box-shadow: 2px 2px 5px rgb(179, 179, 179);
-    width: 400px;
+    width: 380px;
     margin: 19px;
     padding: 20px;
     background-color: #ffebff;
     border-radius: 20px;
 
-    ul li{
+    li{
         margin: 9px;
-        font-size: 17px;
+        font-size: 23px;
         font-weight: bolder;
+        list-style: none;
     }
     p{
         color: red;
         margin-left: 12px;
+      
+    }
+
+    .preco{
+        font-size: 20px; ; 
+        color: black;
+        margin-right: 9px;  
+
     }
 
 
@@ -105,17 +112,19 @@ footer{
     padding: 30px;
     text-align: center;
     h1{
+        font-size: 20px;
         margin: 10px;
         padding: 25px;
         display: inline-block;
         background-color: #ffd0ff;
-        box-shadow: 1px 4px 1px black;
+        box-shadow: 4px 4px 4px black;
         a{
             text-decoration: none;
+            color: black;
         }
     }
 
     h1:hover{
-        background-color: rebeccapurple;
+        background-color:  #aaaaaa;
     }
 }
