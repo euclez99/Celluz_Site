@@ -22,6 +22,9 @@ header{
     }
 }
 
+.pequeno{
+    display: none;
+}
 main{
     padding: 30px;
     margin: auto;
@@ -127,4 +130,29 @@ footer{
     h1:hover{
         background-color:  #aaaaaa;
     }
+
+
+.whatsaap{
+
+            text-decoration: none;
+            color: white;
+
+        .redessociais{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin: 10px;
+        background-color: green;
+        padding: 10px;
+        border-radius: 5px;
+        width: 100px;
+
+
+        img{
+            width: 30px;
+        }
+    }
+
+        }
+
 }

@@ -1,7 +1,7 @@
 
 
 
-@media only screen and (max-width: 961px){
+@media only screen and (max-width: 680px){
 
     .grande{
         display: none;
@@ -18,13 +18,14 @@
     }
 
     #pequenoAlmoço1,#pequenoAlmoço2,#pequenoAlmoço3,#pequenoAlmoço4{
-    display: flex;
+    
+    display: block;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-items: center;
 }
 
-main{
-    justify-content: center;
+.pequeno{
+    display: block;
 
     button{
     font-size: 20px;
@@ -36,6 +37,10 @@ main{
     }
 }
 
+.conteudo{
+    width: 270px;
+}
+
 footer{
     h1{
         font-size: 20px;
@@ -44,8 +49,35 @@ footer{
 
 }
 
+.whatsaap{
+            text-decoration: none;
+            color: white;
+
+            h3{
+                display: none;
+            }
+
+        #pequenao{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin: 10px;
+        background-color: green;
+        padding: 10px;
+        border-radius: 5px;
+        width: 60px;
+
+
+        img{
+            width: 30px;
+        }
+    }
+
+        }
 
 
 }
+
+
 
 
