@@ -32,12 +32,18 @@ main{
     border-radius: 20px;
     box-shadow: 5px 5px 5px 5px rgb(197, 197, 197);
     padding: 30px;
+    text-align: center;
 
     p{
         margin: 15px;
         text-align: justify;
         text-indent: 15px;
         line-height: 30px;
+    }
+
+    img{
+        text-align: center;
+        width: 100px;
     }
 }
 
