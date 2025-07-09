@@ -129,9 +129,11 @@ main{
             font-size: 20px;
         }
 
-        video{
-            margin-top: 20px;
-            width: 500px;
+
+
+        #google{
+            width: 450px;
+            height: 300px;
         }
 
     }
@@ -158,5 +160,13 @@ footer{
 
     }
 
+}
+
+#directo{
+    h1{
+        font-size: 13px;
+        text-align: center;
+        padding: 14px;
+    }
 }
 
