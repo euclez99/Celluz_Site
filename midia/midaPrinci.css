@@ -46,9 +46,11 @@
 
         .conteudo{
             padding: 10px;
-            video{
+            
+            #google{
                 display: none;
             }
+
 
             .apre{
                 display: none;
