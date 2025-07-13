@@ -27,7 +27,6 @@
         display: block;
 
             .img{  
-                margin-right: 0;
                 margin-bottom: 20px;
 
 
@@ -56,6 +55,12 @@
                 display: none;
             }
         }
+
+        .contacto{
+            display: none;
+
+        }
+
     }
 }
 
