@@ -24,7 +24,7 @@ header{
 form{
     margin: auto;
     height: 680px;
-    width: 600px;
+    max-width: 600px;
     background-color: #fbfbfb;
     padding: 30px;
     border-radius: 30px;
@@ -80,5 +80,23 @@ form{
     }
 
 
-
+footer{
+    border-top: 5px solid #ffebff;
+    background-color: #fdfdfd;
+    padding: 30px;
+    text-align: center;
+    margin-top: 90px;
+    h1{
+        font-size: 20px;
+        margin: 10px;
+        padding: 25px;
+        display: inline-block;
+        background-color: #ffd0ff;
+        box-shadow: 4px 4px 4px black;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
 

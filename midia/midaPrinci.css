@@ -55,9 +55,19 @@
             }
         }
 
-        .contacto{
-            display: none;
+        .interacao{
+            justify-content: center;
+            background-color: none;
+            height: 100px;
+        }
 
+        .contact{
+            display: none;
+        }
+
+        .feedback{
+            text-align: center;
+            justify-items: center;
         }
 
     }

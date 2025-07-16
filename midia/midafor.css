@@ -1,0 +1,20 @@
+@media only screen and (max-width: 680px){
+    header{
+        h1{
+            font-size: 30px;
+        }
+    }
+
+    form{
+        max-width: 350px;
+    }
+
+        input{
+        max-width: 280px;
+    }
+
+        textarea{
+        max-width: 280px;
+        
+    }
+}
