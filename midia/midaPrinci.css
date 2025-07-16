@@ -34,7 +34,6 @@
             }
 
             .agendamento{
-                margin: auto;
                 width: 300px;
             }
 
@@ -71,6 +70,7 @@
 
         img{
             width: 514px;
+            justify-items: center;
         }
     }
 
