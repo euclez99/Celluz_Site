@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <header>
+        <h1>Fale Conosco</h1>
+    </header>
+    <form action="https://formsubmit.co/tecnoinovacao200@gmail.com" method="POST">
+        
+        <label for="inome">Nome Completo *</label>
+        <input type="text" name="name" id="inome" placeholder="Digite o seu Nome" required>
+
+
+        <label for="iemail">E-mail *</label>
+        <input type="email" name="email" id="iemail" placeholder="Digite o E-mail" required>
+
+
+        <label for="itel">Digite o seu Telefone *</label>
+        <input type="text" name="tel" id="itel" required placeholder="Ex (+244) 900 000 000" maxlength="9">
+
+
+        <label for="idescricao">Mensagem</label>
+        <textarea name="descricao" id="idescricao"></textarea>
+
+        <button id="botao" onclick="enviar()"  type="submit"><p id="enviou">Enviar</p></button>
+    </form>
+    <script src="../codigo/form.js"></script>
+</body>
+</html>
